@@ -1,0 +1,7 @@
+_BASE_: ../Base-SBS.yml
+
+DATASETS:
+  NAMES: ("Worm",)
+  TESTS: ("Worm",)
+
+OUTPUT_DIR: logs/Worm/sbs_R50

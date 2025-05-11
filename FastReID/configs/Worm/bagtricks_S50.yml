@@ -1,0 +1,11 @@
+_BASE_: ../Base-bagtricks.yml
+
+MODEL:
+  BACKBONE:
+    NAME: build_resnest_backbone
+
+DATASETS:
+  NAMES: ("Worm",)
+  TESTS: ("Worm",)
+
+OUTPUT_DIR: logs/Worm/bagtricks_S50

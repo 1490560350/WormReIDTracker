@@ -1,0 +1,11 @@
+_BASE_: ../Base-AGW.yml
+
+MODEL:
+  BACKBONE:
+    WITH_IBN: True
+
+DATASETS:
+  NAMES: ("Worm",)
+  TESTS: ("Worm",)
+
+OUTPUT_DIR: logs/Worm/agw_R50-ibn

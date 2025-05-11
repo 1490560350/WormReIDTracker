@@ -1,0 +1,12 @@
+_BASE_: ../Base-bagtricks.yml
+
+MODEL:
+  BACKBONE:
+    DEPTH: 101x
+    WITH_IBN: True
+  WEIGHTS: weights/market_bot_R101-ibn.pth
+DATASETS:
+  NAMES: ("Worm",)
+  TESTS: ("Worm",)
+
+OUTPUT_DIR: logs/Worm/bagtricks_R101-ibn

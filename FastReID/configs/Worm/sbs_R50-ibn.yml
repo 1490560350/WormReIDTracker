@@ -1,0 +1,11 @@
+_BASE_: ../Base-SBS.yml
+
+MODEL:
+  BACKBONE:
+    WITH_IBN: True
+  WEIGHTS: weights/market_sbs_R50-ibn.pth
+DATASETS:
+  NAMES: ("Worm",)
+  TESTS: ("Worm",)
+
+OUTPUT_DIR: logs/Worm/sbs_R50-ibn

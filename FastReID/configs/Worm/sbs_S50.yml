@@ -1,0 +1,11 @@
+_BASE_: ../Base-SBS.yml
+
+MODEL:
+  BACKBONE:
+    NAME: build_resnest_backbone
+  WEIGHTS: weights/market_sbs_S50.pth
+DATASETS:
+  NAMES: ("Worm",)
+  TESTS: ("Worm",)
+
+OUTPUT_DIR: logs/Worm/sbs_S50
