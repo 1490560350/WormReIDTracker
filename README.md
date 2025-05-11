@@ -19,7 +19,8 @@
    
    `python track_yolo.py/track_BotSort.py`  # Run the tracking script
 
-WormReIDTracker is based on the YOLO model. For more details, please visit: https://github.com/ultralytics/ultralytics. For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
+WormReIDTracker is based on the YOLO model. For more details, please visit: https://github.com/ultralytics/ultralytics. 
+
 
 # FastReID
 ### Steps
@@ -34,6 +35,6 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 1. Please place the 5 ".csv" files obtained from the feature point detection algorithm into the "Feature_point" subfolder within the "Tracker" folder.
 
 2. Open the program using Matlab R2021a, run ‘Tracker_ Feature.p’, and obtain the experimental results.
-
+For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
 
