@@ -1,7 +1,4 @@
 # WormReIDTracker
- <p align="center">
-  <img src="WormYOLO/examples/segmenting.gif" alt="Segmentation results" width="45%" />
-</p>
 
 ### 
 
