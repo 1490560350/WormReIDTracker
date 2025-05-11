@@ -6,23 +6,23 @@
 ### 
 
 1. Clone the repository:
-   `git clone https://github.com/1490560350/WormYOLO-Count.git`  # Clone the WormYOLO-Count repository
+   `git clone https://github.com/1490560350/WormYOLO-Count.git`  # Clone the WormReIDTracker repository
 
 2. Setup environments:
 
-   `cd WormYOLO-Count/WormYOLO`  # Navigate to the WormYOLO directory
+   `cd WormReIDTracker`  # Navigate to the WormReIDTracker directory
    
-   `conda create -n wormyolo`  # Create a Conda environment named wormyolo
+   `conda create -n wormreidtracker`  # Create a Conda environment named wormreidtracker
    
-   `pip install -e .`  # Install WormYOLO in editable mode
+   `pip install -e .`  # Install WormReIDTracker in editable mode
 
-4. Running the tracker after cloning the WormYOLO repository:
+4. Running the tracker after cloning the WormReIDTracker repository:
    
-   `python train.py`  # Run the training script; you can configure the dataset and whether to load pre-trained weights in the train.py file.     Note: It is necessary to modify the actual path of the dataset in the `WormYOLO/ultralytics/cfg/datasets/data.yaml` file.
+   `python train.py`  # Run the training script; you can configure the dataset and whether to load pre-trained weights in the train.py file.     Note: It is necessary to modify the actual path of the dataset in the `WormReIDTracker/ultralytics/cfg/datasets/data.yaml` file.
    
    `python track_singleworm.py/track_multworms.py`  # Run the tracking script
 
-WormYOLO is based on the YOLO model. For more details, please visit: https://github.com/ultralytics/ultralytics. For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
+WormReIDTracker is based on the YOLO model. For more details, please visit: https://github.com/ultralytics/ultralytics. For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
 # FastReID
 ### Steps
