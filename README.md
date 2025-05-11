@@ -6,7 +6,7 @@
 ### 
 
 1. Clone the repository:
-   `git clone https://github.com/1490560350/WormYOLO-Count.git`  # Clone the WormReIDTracker repository
+   `git clone https://github.com/1490560350/WormReIDTracker.git`  # Clone the WormReIDTracker repository
 
 2. Setup environments:
 
