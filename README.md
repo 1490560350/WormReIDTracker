@@ -17,7 +17,7 @@
    
    `python train.py`  # Run the training script; you can configure the dataset and whether to load pre-trained weights in the train.py file.     Note: It is necessary to modify the actual path of the dataset in the `WormReIDTracker/ultralytics/cfg/datasets/data.yaml` file.
    
-   `python track_singleworm.py/track_multworms.py`  # Run the tracking script
+   `python track_yolo.py/track_BotSort.py`  # Run the tracking script
 
 WormReIDTracker is based on the YOLO model. For more details, please visit: https://github.com/ultralytics/ultralytics. For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
