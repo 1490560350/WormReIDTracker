@@ -24,7 +24,7 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 
 # FastReID
 ### Steps
-`cd WormReIDTracker`  # Navigate to the WormReIDTracker directory
+`cd WormReIDTracker/FastReID`  # Navigate to the FastReID directory
 
 `conda create -n fastreid python=3.7`
 
