@@ -17,24 +17,23 @@
    
    `python train.py`  # Run the training script; you can configure the dataset and whether to load pre-trained weights in the train.py file.     Note: It is necessary to modify the actual path of the dataset in the `WormReIDTracker/ultralytics/cfg/datasets/data.yaml` file.
    
-   `python track_yolo.py/track_BotSort.py`  # Run the tracking script
+   `python track_BotSort.py`  # Run the tracking script
 
 WormReIDTracker is based on the YOLO model. For more details, please visit: https://github.com/ultralytics/ultralytics. 
 
 
 # FastReID
 ### Steps
-1. Place the preprocessed image set into the subfolder named "samples" within the "feature points extraction" folder.
-
-2. Double click to open ‘feature points extraction.sln’.
-
-3. Run the program and obtain the coordinates of the pharynx, inflection point, peak point, and skeletal point. These results are saved in the files below.
-
+`cd WormReIDTracker`  # Navigate to the WormReIDTracker directory
+`conda create -n fastreid python=3.7`
+`conda activate fastreid`
+`conda install pytorch==1.6.0 torchvision tensorboard -c pytorch`
+`pip install -r docs/requirements.txt`
+For more details, please visit: https://github.com/JDAI-CV/fast-reid
 # TrackEval
 ### Steps
-1. Please place the 5 ".csv" files obtained from the feature point detection algorithm into the "Feature_point" subfolder within the "Tracker" folder.
 
-2. Open the program using Matlab R2021a, run ‘Tracker_ Feature.p’, and obtain the experimental results.
+python scripts/run_mot_challenge.py --BENCHMARK worm --TRACKERS_TO_EVAL BotSort --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL False --NUM_PARALLEL_CORES 8
 For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
 
