@@ -34,7 +34,7 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 
 `pip install -r docs/requirements.txt`
 
-For more details, please visit: https://github.com/JDAI-CV/fast-reid
+For the FastReID code and usage instructions, please visit please visit: https://github.com/JDAI-CV/fast-reid
 # TrackEval
 ### Steps
 
