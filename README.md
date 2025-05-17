@@ -32,6 +32,8 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 
 `pip install -r docs/requirements.txt` # Install all dependencies.
 
+`python tools/train_net.py --config-file ./configs/Worm/mgn_R50-ibn.yml MODEL.WEIGHTS ./weights/market_mgn_R50-ibn.pth MODEL.DEVICE "cuda:0"`
+
 For the FastReID code and usage instructions, please visit please visit: https://github.com/JDAI-CV/fast-reid.
 # TrackEval
 ### Steps
