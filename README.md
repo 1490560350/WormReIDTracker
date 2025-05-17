@@ -25,15 +25,21 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 # FastReID
 ### Steps
 `cd WormReIDTracker`  # Navigate to the WormReIDTracker directory
+
 `conda create -n fastreid python=3.7`
+
 `conda activate fastreid`
+
 `conda install pytorch==1.6.0 torchvision tensorboard -c pytorch`
+
 `pip install -r docs/requirements.txt`
+
 For more details, please visit: https://github.com/JDAI-CV/fast-reid
 # TrackEval
 ### Steps
 
 python scripts/run_mot_challenge.py --BENCHMARK worm --TRACKERS_TO_EVAL BotSort --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL False --NUM_PARALLEL_CORES 8
+
 For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
 
