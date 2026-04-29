@@ -9,7 +9,15 @@ This repository hosts the official implementation of a novel framework dedicated
 
 
 ## 📂 Datasets
-We evaluate our method on eight datasets covering detection, tracking, and re-identification tasks[^1]. These datasets include over 3,000 images of C. elegans across multiple developmental stages (L1–adult), resolutions (100×150 to 3280×2464)13, and imaging conditions (varying illumination and magnification). They also include worm–egg annotations3, a re-identification dataset with 32 identities (~9,000 images)14, and multiple videos capturing both single- and multi-worm scenarios under diverse environments, including food and no-food conditions22.
+Dataset[^1]: Consists of over 1500 images of size 1024x1024, covering various developmental stages from larvae (L1-L4) to adults. The images were captured under uneven lighting conditions and collected with magnifications of 1.5x, 2x, and 5x. The training set accounts for 90%, and the test set for 10%.
+Dataset[^2]: Contains over 400 images of C. elegans, divided into two categories: GFP and WT, covering a range of sizes and environmental conditions. The training set accounts for 90%, and the test set for 10%.
+Dataset[^3]: Comprises over 1100 images of C. elegans with sizes of 3280x2464 and 1640x1232, covering different developmental stages. The training set accounts for 90%, and the test set for 10%.
+Dataset[^4]: Contains over 100 images of size 1280x1024, each containing both worms and eggs, annotated into two categories. The training set accounts for 90%, and the test set for 10%.
+Dataset[^5]: Consists of a worm re-identification dataset with 32 different identities. Each identity contains between dozens to 300 images, totaling approximately 9000 images, with each image being 100x150 in size. The training set includes 28 identities, the test set includes 4 identities, and the query set also includes 4 identities.
+Dataset[^6]: Includes five different videos of freely moving C. elegans, covering scenarios with both single and multiple worms. The videos vary in background, microscope magnification, and the developmental stages of the worms.
+Dataset[^7]: This dataset is from the C. elegans behavioral phenotype database and contains worm videos from multiple strains. We annotated three of these videos, totaling approximately 200 images, which include two categories: worms and eggs. The training set accounts for 70%, and the test set for 30%.
+Dataset[^8]: Contains videos of free-moving tph-1 and N2 strain worms, recording their movement behavior in Petri dishes with and without food.
+
 
 
 ## 🔧 Setup 
@@ -52,7 +60,7 @@ For the FastReID code and usage instructions, please visit please visit: https:/
 For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
 ## 📝 References
-[^1]: Zhang J, Liu S, Yuan H, Yong R, Duan S, Li Y, et al. Deep learning for microfluidic-assisted Caenorhabditis elegans multi-parameter identification using YOLOv7. Micromachines. 2023;14(7):1339
+[^1]: Banerjee SC, Khan KA, Sharma R. Deep-worm-tracker: Deep learning methods for accurate detection and tracking for behavioral studies in C. elegans. Applied Animal Behaviour Science. 2023;266:106024.
 
 3. Bates K, Le KN, Lu H. Deep learning for robust and flexible tracking in behavioral studies for C. elegans. PLOS Computational Biology. 2022;18(4):e1009942.(https://arxiv.org/abs/2401.12345)
 
