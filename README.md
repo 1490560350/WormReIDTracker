@@ -10,10 +10,7 @@ This repository hosts the official implementation of a novel framework dedicated
 ## 📂 Data Preparation
 
 ## ⚙️ Installation
-# WormReIDTracker
-
-### 
-
+###  WormReIDTracker
 1. Clone the repository:
    `git clone https://github.com/1490560350/WormReIDTracker.git`  # Clone the WormReIDTracker repository.
 
