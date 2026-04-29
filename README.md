@@ -1,18 +1,17 @@
 <h1 align="center">🎯 WormReIDTracker: A C. elegans Tracking Framework Based on Cross-Scale Feature Fusion and Identity Feature Regression</h1>
-
 ## 🏡 About
-<div style="text-align: center;">
-    <img src="assets/framework.png" alt="Dialogue_Teaser" width=100% >
-</div>
-
 <p align="justify">
 This repository hosts the official implementation of a novel framework dedicated to robust nematode tracking. It features two key modules, MFSM and SOEN, designed to fuse multi-scale features for improved bounding box precision. By leveraging an identity feature regression module, the framework effectively reduces identity switching for more stable tracking.  Included are training/evaluation <a href="https://github.com/1490560350/WormReIDTracker">codes</a>, and <a href="https://zenodo.org/records/19871295">results</a>.
 </p>
 
+![motivation](assets/framework.png)
 
-## 📂 Data Preparation
 
-## ⚙️ Installation
+## 📂 Datasets
+We evaluate our method on eight datasets covering detection, tracking, and re-identification tasks10. These datasets include over 3,000 images of C. elegans across multiple developmental stages (L1–adult), resolutions (100×150 to 3280×2464)13, and imaging conditions (varying illumination and magnification). They also include worm–egg annotations3, a re-identification dataset with 32 identities (~9,000 images)14, and multiple videos capturing both single- and multi-worm scenarios under diverse environments, including food and no-food conditions22.
+
+
+## 🔧 Setup 
 - ###  WormReIDTracker
 1. Clone the repository:
    `git clone https://github.com/1490560350/WormReIDTracker.git`  # Clone the WormReIDTracker repository.
