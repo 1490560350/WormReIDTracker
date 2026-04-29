@@ -1,6 +1,8 @@
 <h1 align="center">🎯 WormReIDTracker: A C. elegans Tracking Framework Based on Cross-Scale Feature Fusion and Identity Feature Regression</h1>
 
-![motivation](assets/framework.png)
+<div style="text-align: center;">
+    <img src="assets/framework.png" alt="Dialogue_Teaser" width=100% >
+</div>
 
 <p align="justify">
 This repository hosts the official implementation of a novel framework dedicated to robust nematode tracking. It features two key modules, MFSM and SOEN, designed to fuse multi-scale features for improved bounding box precision. By leveraging an identity feature regression module, the framework effectively reduces identity switching for more stable tracking.  Included are training/evaluation <a href="https://github.com/1490560350/WormReIDTracker">codes</a>, and <a href="https://zenodo.org/records/19871295">results</a>.
