@@ -9,7 +9,7 @@ This repository hosts the official implementation of a novel framework dedicated
 
 
 ## 📂 Datasets
-We evaluate our method on eight datasets covering detection, tracking, and re-identification tasks10. These datasets include over 3,000 images of C. elegans across multiple developmental stages (L1–adult), resolutions (100×150 to 3280×2464)13, and imaging conditions (varying illumination and magnification). They also include worm–egg annotations3, a re-identification dataset with 32 identities (~9,000 images)14, and multiple videos capturing both single- and multi-worm scenarios under diverse environments, including food and no-food conditions22.
+We evaluate our method on eight datasets covering detection, tracking, and re-identification tasks[^1]. These datasets include over 3,000 images of C. elegans across multiple developmental stages (L1–adult), resolutions (100×150 to 3280×2464)13, and imaging conditions (varying illumination and magnification). They also include worm–egg annotations3, a re-identification dataset with 32 identities (~9,000 images)14, and multiple videos capturing both single- and multi-worm scenarios under diverse environments, including food and no-food conditions22.
 
 
 ## 🔧 Setup 
@@ -52,8 +52,7 @@ For the FastReID code and usage instructions, please visit please visit: https:/
 For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
 ## 📝 References
-
-1. Zhang J, Liu S, Yuan H, Yong R, Duan S, Li Y, et al. Deep learning for microfluidic-assisted Caenorhabditis elegans multi-parameter identification using YOLOv7. Micromachines. 2023;14(7):1339
+[^1]: Zhang J, Liu S, Yuan H, Yong R, Duan S, Li Y, et al. Deep learning for microfluidic-assisted Caenorhabditis elegans multi-parameter identification using YOLOv7. Micromachines. 2023;14(7):1339
 
 3. Bates K, Le KN, Lu H. Deep learning for robust and flexible tracking in behavioral studies for C. elegans. PLOS Computational Biology. 2022;18(4):e1009942.(https://arxiv.org/abs/2401.12345)
 
