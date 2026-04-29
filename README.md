@@ -1,3 +1,14 @@
+<h1 align="center">🎯 WormReIDTracker: A C. elegans Tracking Framework Based on Cross-Scale Feature Fusion and Identity Feature Regression</h1>
+
+![motivation](assets/framework.jpg)
+
+<p align="justify">
+This repository hosts the official implementation of a novel framework dedicated to robust nematode tracking. It features two key modules, MFSM and SOEN, designed to fuse multi-scale features for improved bounding box precision. By leveraging an identity feature regression module, the framework effectively reduces identity switching for more stable tracking. Complete resources for model training and evaluation are provided.
+</p>
+
+## 📂 Data Preparation
+
+## ⚙️ Installation
 # WormReIDTracker
 
 ### 
@@ -31,6 +42,8 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 `conda activate fastreid` # Activate the Conda environment named fastreid.
 
 `pip install -r docs/requirements.txt` # Install all dependencies.
+
+`python tools/train_net.py --config-file ./configs/Worm/mgn_R50-ibn.yml MODEL.WEIGHTS ./weights/market_mgn_R50-ibn.pth MODEL.DEVICE "cuda:0"`
 
 For the FastReID code and usage instructions, please visit please visit: https://github.com/JDAI-CV/fast-reid.
 # TrackEval
