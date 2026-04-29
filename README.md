@@ -10,7 +10,7 @@ This repository hosts the official implementation of a novel framework dedicated
 ## 📂 Data Preparation
 
 ## ⚙️ Installation
-###  WormReIDTracker
+-###  WormReIDTracker
 1. Clone the repository:
    `git clone https://github.com/1490560350/WormReIDTracker.git`  # Clone the WormReIDTracker repository.
 
@@ -31,8 +31,7 @@ This repository hosts the official implementation of a novel framework dedicated
 WormReIDTracker is based on the YOLO model. For more details, please visit: https://github.com/ultralytics/ultralytics. 
 
 
-# FastReID
-### Steps
+-###  FastReID
 `cd WormReIDTracker/FastReID`  # Navigate to the FastReID directory.
 
 `conda create -n fastreid python=3.7` # Create a Conda environment named fastreid.
@@ -44,9 +43,7 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 `python tools/train_net.py --config-file ./configs/Worm/mgn_R50-ibn.yml MODEL.WEIGHTS ./weights/market_mgn_R50-ibn.pth MODEL.DEVICE "cuda:0"`
 
 For the FastReID code and usage instructions, please visit please visit: https://github.com/JDAI-CV/fast-reid.
-# TrackEval
-### Steps
-
+-###  TrackEval
 python scripts/run_mot_challenge.py --BENCHMARK worm --TRACKERS_TO_EVAL BotSort --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL False --NUM_PARALLEL_CORES 8 #
 
 For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
