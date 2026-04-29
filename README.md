@@ -1,5 +1,6 @@
 <h1 align="center">🎯 WormReIDTracker: A C. elegans Tracking Framework Based on Cross-Scale Feature Fusion and Identity Feature Regression</h1>
 
+## 🏡 About
 <div style="text-align: center;">
     <img src="assets/framework.png" alt="Dialogue_Teaser" width=100% >
 </div>
