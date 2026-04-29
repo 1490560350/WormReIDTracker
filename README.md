@@ -44,7 +44,7 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 
 For the FastReID code and usage instructions, please visit please visit: https://github.com/JDAI-CV/fast-reid.
 - ###  TrackEval
-python scripts/run_mot_challenge.py --BENCHMARK worm --TRACKERS_TO_EVAL BotSort --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL False --NUM_PARALLEL_CORES 8 #
+`python scripts/run_mot_challenge.py --BENCHMARK worm --TRACKERS_TO_EVAL BotSort --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL False --NUM_PARALLEL_CORES 8` #
 
 For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
