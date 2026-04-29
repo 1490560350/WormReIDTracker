@@ -32,19 +32,19 @@ WormReIDTracker is based on the YOLO model. For more details, please visit: http
 
 
 - ###  FastReID
-`cd WormReIDTracker/FastReID`  # Navigate to the FastReID directory.
+   `cd WormReIDTracker/FastReID`  # Navigate to the FastReID directory.
 
-`conda create -n fastreid python=3.7` # Create a Conda environment named fastreid.
+   `conda create -n fastreid python=3.7` # Create a Conda environment named fastreid.
 
-`conda activate fastreid` # Activate the Conda environment named fastreid.
+   `conda activate fastreid` # Activate the Conda environment named fastreid.
 
-`pip install -r docs/requirements.txt` # Install all dependencies.
+  `pip install -r docs/requirements.txt` # Install all dependencies.
 
-`python tools/train_net.py --config-file ./configs/Worm/mgn_R50-ibn.yml MODEL.WEIGHTS ./weights/market_mgn_R50-ibn.pth MODEL.DEVICE "cuda:0"`
+  `python tools/train_net.py --config-file ./configs/Worm/mgn_R50-ibn.yml MODEL.WEIGHTS ./weights/market_mgn_R50-ibn.pth MODEL.DEVICE "cuda:0"`
 
 For the FastReID code and usage instructions, please visit please visit: https://github.com/JDAI-CV/fast-reid.
 - ###  TrackEval
-`python scripts/run_mot_challenge.py --BENCHMARK worm --TRACKERS_TO_EVAL BotSort --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL False --NUM_PARALLEL_CORES 8` #
+  `python scripts/run_mot_challenge.py --BENCHMARK worm --TRACKERS_TO_EVAL BotSort --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL False --NUM_PARALLEL_CORES 8` #
 
 For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
