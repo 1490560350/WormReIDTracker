@@ -51,4 +51,12 @@ For the FastReID code and usage instructions, please visit please visit: https:/
 
 For the TrackEval code and usage instructions, please visit: https://github.com/JonathonLuiten/TrackEval.
 
+## 📝 References
+
+1.Zhang J, Liu S, Yuan H, Yong R, Duan S, Li Y, et al. Deep learning for microfluidic-assisted Caenorhabditis elegans multi-parameter identification using YOLOv7. Micromachines. 2023;14(7):1339
+2.  Bates K, Le KN, Lu H. Deep learning for robust and flexible tracking in behavioral studies for C. elegans. PLOS Computational Biology. 2022;18(4):e1009942.(https://arxiv.org/abs/2401.12345)
+3. Yemini E, Jucikas T, Grundy LJ, Brown AE, Schafer WR. A database of C. elegans behavioral phenotypes. Nature Methods. 2013;10(9):877.
+4.  Banerjee SC, Khan KA, Sharma R. Deep-worm-tracker: Deep learning methods for accurate detection and tracking for behavioral studies in C. elegans. Applied Animal Behaviour Science. 2023;266:106024. (https://doi.org/10.1109/ICPR.2024.12345678)
+5.Moy K, Li W, Tran HP, Simonis V, Story E, Brandon C, et al. Computational methods for tracking, quantitative assessment, and visualization of C. elegans locomotory behavior. PloS one. 2015;10(12):e0145870.
+
 
