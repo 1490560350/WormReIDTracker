@@ -17,7 +17,7 @@ Dataset[^3]: Comprises over 1100 images of C. elegans with sizes of 3280x2464 an
 
 Dataset[^4]: This dataset is from the C. elegans behavioral phenotype database and contains worm videos from multiple strains. We annotated three of these videos, totaling approximately 200 images, which include two categories: worms and eggs. The training set accounts for 70%, and the test set for 30%. <a href="https://www.youtube.com/@wormbehavior">Dataset Access</a>.
 
-Dataset[^5]: Contains videos of free-moving tph-1 and N2 strain worms, recording their movement behavior in Petri dishes with and without food. <a href="https://drive.google.com/drive/folders/1PM4Rvrz-V6p-xqAEWsz66tAKu4W5x8Mc">Dataset Access</a>.
+Dataset[^5]: Contains videos of free-moving tph-1 and N2 strain worms, recording their movement behavior in Petri dishes with and without food.
 
 
 
