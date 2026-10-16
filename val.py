@@ -4,7 +4,7 @@ import torch
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('/root/projects/WormReIDTracker-all/runs/train/exp78/weights/best.pt')
+    model = YOLO('ultralytics/runs/train/exp78/weights/best.pt')
 
     results = model.val(
         data=r'coco8-deep-worm.yaml',
