@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 if __name__ == '__main__':
     
-    model = YOLO('/root/projects/WormReIDTracker-all/ultralytics/cfg/models/yolov8-WormReIDTracker.yaml')
+    model = YOLO('ultralytics/cfg/models/yolov8-WormReIDTracker.yaml')
     ##Loading pre-trained models, and need to configure the path correctly.
     #model.load('CSB-1.pt')
 
