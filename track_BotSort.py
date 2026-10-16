@@ -109,7 +109,7 @@ if __name__ == '__main__':
     if not os.path.exists(output_base_dir):
         os.makedirs(output_base_dir)
     
-    model = YOLO('/root/projects/WormReIDTracker-mogui/best/worm-egg.pt')
+    model = YOLO('worm-egg.pt')
     
     video_base_path = 'video'
     class_names = model.model.names if hasattr(model.model, 'names') else model.names
